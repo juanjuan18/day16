@@ -1,0 +1,78 @@
+overflow-x
+
+px em rem pt
+
+命名规范https://imweb.github.io/rule
+
+视口 视图窗口的单位 vw  vh  100vh
+
+css超出区域 自动换行
+
+word-spacing
+
+background-clip
+
+
+纯CSS完美实现垂直水平居中的6种布局方式
+
+如何居中一个浮动元素??
+
+
+事件穿透pointer-events
+
+direction 字体排版方向
+
+white-space
+text-overflow用于文本溢出:
+单行缩略的实现如下:
+.oneline {
+    white-space: nowrap; //强制文本在一行内输出
+    overflow: hidden; //隐藏溢出部分
+    text-overflow: ellipsis; //对溢出部分加上...
+}
+
+多行缩略实现如下(主要针对webkit内核):
+.multiline {
+    display: -webkit-box !important;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    word-break: break-all;
+    
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+文字倒影效果box-reflect
+
+理解 line-height 和 vertical-align
+
+
+https://segmentfault.com/a/1190000017512478
+  line box：
+  inline(-level) box：
+  content area：
+  baseline
+
+
+
+简单说 CSS中的 object-fit 与 object-position
+https://segmentfault.com/a/1190000011874066
+
+src和href的区别
+
+doctype作用，标准模式与兼容模式各有什么区别
+
+页面导入样式时，使用link 和 @import有什么区别
+
+变量
+CSS:root{--bgColor: #90ffc1;}
+.box {background:var(--bgColor);}
+
+
+mix-blend-mode 混合模式详解
+https://blog.csdn.net/qq_36735409/article/details/78249083
+
+
+取消下拉框边框 -webkit-appearance
